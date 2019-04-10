@@ -1,0 +1,4 @@
+
+//def libsRootDir = new File( settingsDir, '../node_modules/SalesforceMobileSDK-Android/libs' )
+
+include ':app',':libs:libdanrfid'

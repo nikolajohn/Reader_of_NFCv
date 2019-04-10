@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 Dan Michael Heggø
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="app_name">Hello World</string>
+    <string name="intro_message">NFC reader</string>
+    <string name="error">Feil</string>
+    <string name="no_nfc">No NFC found on this device</string>
+    <string name="nfc_disabled">NFC is not enabled. Please go to the wireless settings to enable it.</string>
+    <string name="unknown_tech">Ukjent korttype</string>
+    <string name="barcode">Land:</string>
+    <string name="country">Bibliotek:</string>
+    <string name="library">Strekkode:</string>
+    <string name="action_search">Søk</string>
+    <string name="settings">Innstillinger</string>
+    <string name="bibsys">BIBSYS</string>
+    <string name="pref_title_account">Konto</string>
+    <string name="pref_description_account">Konto</string>
+    <string name="pref_category_account">Konto</string>
+    <string name="login_label">Logg inn</string>
+
+    <string name="refreshButtonLabel">Oppfrisk</string>
+    <string name="notLoggedIn">Ikke logget inn</string>
+    
+    <!-- Permission label -->
+    <string
+        name="permlab_samplesyncadapterAuthPassword">access to passwords for Sample SyncAdapter accounts</string>
+    <!-- Permission description -->
+    <string
+        name="permdesc_samplesyncadapterAuthPassword">Allows applications direct access to the passwords for the
+        Sample SyncAdapter account(s) you have configured.</string>
+
+    <!-- Permission label -->
+    <string
+        name="permlab_samplesyncadapterAuth">view configured accounts</string>
+    <!-- Permission description -->
+    <string
+        name="permdesc_samplesyncadapterAuth">Allows applications to see the usernames (email addresses) of
+        the Sample SyncAdapter account(s) you have configured.</string>
+    <string
+        name="notification_login_error">Touch to sign into your Sample SyncAdapter account.</string>
+
+    <!-- Title string for Login activity-->
+    <string
+        name="ui_activity_title">Logg inn</string>
+    <!-- Message shown in progress dialog while app connects to the server -->
+    <string
+        name="ui_activity_authenticating">Autentiserer\u2026</string>
+
+    <!-- AuthenticatorActivity -->
+    <skip />
+    <!-- Label above username EditText -->
+    <string
+        name="login_activity_username_label">Brukernavn</string>
+    <!-- Label above password EditText -->
+    <string
+        name="login_activity_password_label">Passord</string>
+    <!-- Button to sign in after entering username and password -->
+    <string
+        name="login_activity_ok_button">Logg inn</string>
+
+    <!-- Message shown in dialog if the username or password is invalid. -->
+    <string
+        name="login_activity_loginfail_text_both">Brukernavnet eller passordet er ikke gyldig. Du bruker BIBSYS-kontoen, ikke UiO-kontoen din..?</string>
+    <!-- Message shown in dialog if the password is invalid -->
+    <string
+        name="login_activity_loginfail_text_pwonly">Du skrev feil passord, eller kontoen din har blitt endret. Vennligst skriv inn passordet på nytt.</string>
+    <!-- Message shown in dialog to prompt the user for their password -->
+    <string
+        name="login_activity_loginfail_text_pwmissing">Skriv inn passordet.</string>
+    <!--
+        Message shown if the provided account doesn't support the current
+        activity.
+    -->
+    <string
+        name="login_activity_newaccount_text">Logg inn med din BIBSYS-konto (<a href="https://secure.bibsys.no/adgang/action/logon">Hæ??</a>).</string>
+
+    <!-- Button that takes the user to the "sign in" screen -->
+    <string
+        name="sign_in_button_label">Logg inn</string>
+    <!-- Button for going to the previous screen or step -->
+    <string
+        name="back_button_label">Back</string>
+    <!-- Button to cancel the current operation -->
+    <string
+        name="cancel_button_label">Cancel</string>
+
+</resources>
